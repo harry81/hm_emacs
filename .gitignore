@@ -1,0 +1,11 @@
+*.el~
+.emacs.d/auto-save-list
+.emacs.d/.python-environments
+.emacs.d/eshell
+.emacs.d/plugin
+.emacs.d/.python-environments_bak
+.emacs.d/elpa
+.emacs.d/themes
+.emacs.d/el-get
+.emacs.d/.emacs.desktop 
+.emacs.d/tramp
