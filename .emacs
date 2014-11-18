@@ -1,7 +1,8 @@
 (require 'package)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+                         ("melpa" . "http://melpa.milkbox.net/packages/")
+))
 (package-initialize)
 (setq url-http-attempt-keepalives nil)
 
@@ -18,34 +19,21 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(custom-safe-themes
-   (quote
-    ("1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(custom-safe-themes (quote ("1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(ecb-options-version "2.32")
- '(flymake-allowed-file-name-masks
-   (quote
-    (("\\.py\\'" flymake-pycodecheck-init nil nil)
-     ("\\.\\(?:c\\(?:pp\\|xx\\|\\+\\+\\)?\\|CC\\)\\'" flymake-simple-make-init nil nil)
-     ("\\.xml\\'" flymake-xml-init nil nil)
-     ("\\.html?\\'" flymake-xml-init nil nil)
-     ("\\.cs\\'" flymake-simple-make-init nil nil)
-     ("\\.p[ml]\\'" flymake-perl-init nil nil)
-     ("\\.php[345]?\\'" flymake-php-init nil nil)
-     ("\\.h\\'" flymake-master-make-header-init flymake-master-cleanup nil)
-     ("[0-9]+\\.tex\\'" flymake-master-tex-init flymake-master-cleanup nil)
-     ("\\.tex\\'" flymake-simple-tex-init nil nil)
-     ("\\.idl\\'" flymake-simple-make-init nil nil))))
+ '(flymake-allowed-file-name-masks (quote (("\\.py\\'" flymake-pycodecheck-init nil nil) ("\\.\\(?:c\\(?:pp\\|xx\\|\\+\\+\\)?\\|CC\\)\\'" flymake-simple-make-init nil nil) ("\\.xml\\'" flymake-xml-init nil nil) ("\\.html?\\'" flymake-xml-init nil nil) ("\\.cs\\'" flymake-simple-make-init nil nil) ("\\.p[ml]\\'" flymake-perl-init nil nil) ("\\.php[345]?\\'" flymake-php-init nil nil) ("\\.h\\'" flymake-master-make-header-init flymake-master-cleanup nil) ("[0-9]+\\.tex\\'" flymake-master-tex-init flymake-master-cleanup nil) ("\\.tex\\'" flymake-simple-tex-init nil nil) ("\\.idl\\'" flymake-simple-make-init nil nil))))
  '(gnus-secondary-select-method nil)
  '(gnus-select-method (quote (nnml "")))
- '(grep-find-ignored-directories
-   (quote
-    ("SCCS" "RCS" "CVS" "MCVS" ".svn" ".git" ".hg" ".bzr" "_MTN" "_darcs" "{arch}" "migrations")))
+ '(grep-find-ignored-directories (quote ("SCCS" "RCS" "CVS" "MCVS" ".svn" ".git" ".hg" ".bzr" "_MTN" "_darcs" "{arch}" "migrations")))
  '(inhibit-startup-buffer-menu t)
  '(inhibit-startup-screen t)
  '(jedi:complete-on-dot t)
+ '(jedi:environment-root (quote /home/ypointer/\.virt_env/anything))
  '(jedi:environment-virtualenv (quote /Users/harry/\.virt_env/anything))
+ '(jedi:setup-keys t)
  '(js-indent-level 2)
- '(package-archives (quote (("melpa" . "http://melpa.milkbox.net/packages/"))))
+ '(package-archives (quote (("marmalade" . "https://marmalade-repo.org/packages/")
+                            ("melpa" . "http://melpa.milkbox.net/packages/"))))
  '(python-environment-default-root-name "anything")
  '(save-place t nil (saveplace))
  '(scroll-bar-mode nil)

@@ -1,4 +1,6 @@
 *.el~
+.emacs.d/.emacs.desktop
+.emacs.d/ac-comphist.dat
 .emacs.d/auto-save-list
 .emacs.d/.python-environments
 .emacs.d/eshell
@@ -7,5 +9,5 @@
 .emacs.d/elpa
 .emacs.d/themes
 .emacs.d/el-get
-.emacs.d/.emacs.desktop 
+.emacs.d/.emacs.desktop
 .emacs.d/tramp

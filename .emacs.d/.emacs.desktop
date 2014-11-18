@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Nov 17 10:31:04 2014
+;; Created Tue Nov 18 10:06:37 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.3.1
 
@@ -13,7 +13,7 @@
 (setq search-ring '("harry" "pylo" "pyl" "smsrelay_ownerapp" "postgis" "postgres" "postg" "modifi" "cre" "r" "psql" "recent" "custome	" "16344" "commit" "16344"))
 (setq regexp-search-ring '("'[\" ]\\(.*media.*?\\)'" "' \\(.*media.*?\\)'" " \\(.*media.*?\\)" "\\(.*media.*?\\)" "\\(.*?media.*?\\)" "(.*?media.*?)" "\\\"(.*?media.*?)" "\\\"([^ ]*?media[^ ]*?)" "[^ ]*?media[^ ]*?" "[^ ]*?media.*?" "'.*?media.*?'" "' .*?media.*?'" " .*?media.*?" ".*?media.*?" ".*media.*" "[:digit:]+"))
 (setq register-alist (list '(55 " 2.299" " 2.242" " 2.290" " 2.308" " 2.150" " 2.257" " 2.239" " 2.248" " 2.252" " 2.240") '(57 "1.253" "1.135" "1.136" "1.161" "1.206" "1.167" "1.155" "1.152" "1.121" "1.221") '(56 "1.349" "1.694" "1.371" "1.348" "1.459" "1.327" "1.080" "1.304" "1.281" "1.250") (list 213465889 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk nil (get-buffer " *temp*")))) mk)) (list 213465879 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk nil (get-buffer " *temp*")))) mk))))
-(setq file-name-history '("~/work/yogiyo/Yogiyo_Web/dowant/cart/" "~/work/yogiyo/Yogiyo_Web/dowant/cart/models.py" "~/.emacs.d/hm_development.el" "~/.emacs" "~/work/yogiyo/Yogiyo_Web/dowant/smsrelay/migrations/0007_auto__add_ownerapp__add_unique_ownerapp_number_app_id__add_ownerappver.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0006_auto__add_field_district_geom.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0009_auto__add_field_district_created_at__add_field_district_modified_at__a.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0009" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0008_auto__add_field_district_clone_parent.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0009_auto__add_field_district_created_at__add_field_district_modified_at__a.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/migrations/" "~/work/yogiyo/Yogiyo_Web/dowant/cart/models.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/management/commands/" "~/work/yogiyo/Yogiyo_Web/dowant/backend/management/commands/calcrankreview.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/tasks/" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/tasks/__init__.py" "~/work/yogiyo/Yogiyo_Web/dowant/settings/" "~/work/yogiyo/Yogiyo_Web/dowant/settings/test.py" "~/work/yogiyo/Yogiyo_Web/dowant/settings/dev/" "~/work/yogiyo/Yogiyo_Web/dowant/smsrelay/migrations/0007_auto__add_ownerapp__add_unique_ownerapp_number_app_id__add_ownerappver.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0007_auto__add_field_district_readonly_polygon.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0012_auto__add_field_district_primary_zipcode.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/" "~/work/yogiyo/Yogiyo_Web/dowant/orderman/migrations/0018_clean_wrong_order_id_and_chg_field_ticketrevision_order.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/migrations/0048_modify_offline_rests.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/migrations/" "~/work/yogiyo/Yogiyo_Web/dowant/" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/migrations/"))
+(setq file-name-history '("~/Dropbox/emacs/.emacs.d/" "~/.emacs.d/hm_development.el" "~/work/yogiyo/Yogiyo_Web/dowant/cart/" "~/work/yogiyo/Yogiyo_Web/dowant/cart/models.py" "~/.emacs.d/hm_development.el" "~/.emacs" "~/work/yogiyo/Yogiyo_Web/dowant/smsrelay/migrations/0007_auto__add_ownerapp__add_unique_ownerapp_number_app_id__add_ownerappver.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0006_auto__add_field_district_geom.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0009_auto__add_field_district_created_at__add_field_district_modified_at__a.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0009" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0008_auto__add_field_district_clone_parent.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0009_auto__add_field_district_created_at__add_field_district_modified_at__a.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/migrations/" "~/work/yogiyo/Yogiyo_Web/dowant/cart/models.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/management/commands/" "~/work/yogiyo/Yogiyo_Web/dowant/backend/management/commands/calcrankreview.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/tasks/" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/tasks/__init__.py" "~/work/yogiyo/Yogiyo_Web/dowant/settings/" "~/work/yogiyo/Yogiyo_Web/dowant/settings/test.py" "~/work/yogiyo/Yogiyo_Web/dowant/settings/dev/" "~/work/yogiyo/Yogiyo_Web/dowant/smsrelay/migrations/0007_auto__add_ownerapp__add_unique_ownerapp_number_app_id__add_ownerappver.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0007_auto__add_field_district_readonly_polygon.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/0012_auto__add_field_district_primary_zipcode.py" "~/work/yogiyo/Yogiyo_Web/dowant/geo/migrations/" "~/work/yogiyo/Yogiyo_Web/dowant/orderman/migrations/0018_clean_wrong_order_id_and_chg_field_ticketrevision_order.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/migrations/0048_modify_offline_rests.py" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/" "~/work/yogiyo/Yogiyo_Web/dowant/restaurant/migrations/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
@@ -21,9 +21,31 @@
   "models.py"
   'django-mode
   '(flymake-mode auto-complete-mode global-auto-revert-mode autopair-mode)
-  258
-  '(nil nil)
+  26
+  '(55 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(global-auto-revert-mode)
+  252
+  '(nil nil)
+  t
+  '("/home/ypointer/Dropbox/emacs/.emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/ypointer/Dropbox/emacs/.emacs.d/hm_development.el"
+  "hm_development.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode global-auto-revert-mode autopair-mode)
+  5956
+  '(6035 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
 
